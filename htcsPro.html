@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+    }
+    .header {
+      background-color: red;
+      height: 100px;
+    }
+    .main {
+      background-color: antiquewhite;
+      text-align: center;
+      font-weight: bold;
+      font-size: 24px;
+      padding: 10px;
+      padding-top: 8px;
+      padding-bottom: 30px;
+    }
+    .container {
+      background-color: aquamarine;
+      padding: 40px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .content {
+      background-color: cadetblue;
+      height: 300px;
+      position: relative;
+    }
+    .left-box {
+      background-color: blue;
+      width: 400px;
+      height: 300px;
+      float: left;
+    }
+    .top-box {
+      background-color: yellow;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      left: 400px;
+      top: 0;
+    }
+    .bottom-box {
+      background-color: yellowgreen;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header"></div>
+  <div class="main">Main Content
+    <div class="container">
+      <div class="content">
+        <div class="left-box"></div>
+        <div class="top-box"></div>
+        <div class="bottom-box"></div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="container">
+    <div class="content">
+      <div class="left-box"></div>
+      <div class="top-box"></div>
+      <div class="bottom-box"></div>
+    </div>
+  </div> -->
+</body>
+</html>
